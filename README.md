@@ -4,13 +4,22 @@ FIXME: description
 
 ## Installation
 
-Download from http://example.com/FIXME.
+
 
 ## Usage
 
-FIXME: explanation
+You will need to install node.js and then install express and
+serve-static from within the project directory.
 
-    $ java -jar isomorphic-node-0.1.0-standalone.jar [args]
+    $ npm install express --save
+    $ npm install serve-static --save
+
+Once you have these installed you can build and run the app using:
+
+    $ lein cljsbuild once server app
+    $ node resources/public/js/server-side/server.js
+
+
 
 ## Options
 
