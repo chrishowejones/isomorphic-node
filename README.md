@@ -62,23 +62,11 @@ nil
 cljs.user>
 ```
 
-This CLJS buffer will now be connected to the browser. To connect a
-buffer to the server as well.
-
-``` emacs-lisp
-M-x cider-connect
-localhost
-<port for nREPL server - see nrepl-server buffer
-```
+This CLJS buffer will now be connected to the browser.
+The easiest way to connect to the server is to switch builds
 
 ``` clojure
-user> (use 'figwheel-sidecar.repl-api)
-nil
-user> (switch-to-build "server")
-user> (cljs-repl)
-Launching ClojureScript REPL for build: server...
-nil
-cljs.user>
+cljs.user> (switch-to-build "server")
 ```
 
 This new buffer is now connected to the server running in node.

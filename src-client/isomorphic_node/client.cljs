@@ -7,6 +7,8 @@
 
 (enable-console-print!)
 
+(println "hello from client")
+
 (reagent/render-component [core/app-view] (.getElementById js/document "app"))
 
 (pushy/push-state! secretary/dispatch!
