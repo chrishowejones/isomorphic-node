@@ -18,9 +18,7 @@
 
   :profiles {:dev
              {:dependencies [[com.cemerick/piggieback "0.2.1"]
-                             [org.clojure/core.async "0.2.395"]
-                             [figwheel-sidecar "0.5.4-7"
-                              :exclusions [org.clojure/core.async]]]
+                             [figwheel-sidecar "0.5.4-7"]]
               :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}}
 
   :cljsbuild {:builds [{:id "app"
