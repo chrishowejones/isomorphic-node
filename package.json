@@ -1,18 +1,19 @@
 {
-  "name": "isomorphic-node",
-  "version": "0.1.0",
-  "private": "true",
-  "engines": {
-    "node": "0.12.x"
-  },
-  "dependencies": {
-    "express": "^4.14.0",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "serve-static": "^1.11.1"
-  },
-  "devDependencies": {
-    "source-map-support": "0.4.0",
-    "ws": "0.8.1"
-  }
-}
+ "name": "isomorphic-node",
+ "version": "0.1.0",
+ "private": "true",
+ "engines": {
+             "node": "0.12.x"
+             },
+ "dependencies": {
+                  "express": "^4.14.0",
+                  "react": "^15.4.1",
+                  "react-dom": "^15.4.1",
+                  "serve-static": "^1.11.1"
+                  "ws" : "0.8.1"
+                  },
+ "devDependencies": {
+                     "source-map-support": "0.4.0",
+                     "ws": "0.8.1"
+                     }
+ }
